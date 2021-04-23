@@ -1,12 +1,14 @@
 package com.scoyware.dscatalog.first.exercise.repositories;
 
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import com.scoyware.dscatalog.first.exercise.entities.Client;
 
 @Repository
-public interface ClientRepository   extends JpaRepository<Client, Long>{
-	
+public interface ClientRepository   extends JpaRepository<Client, Long> {
 	
 }
+	
+	
